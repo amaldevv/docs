@@ -1,7 +1,7 @@
 ---
 title: Data transforms
 description: Explore the different data transforms supported in ML.NET.
-ms.date: 07/27/2018
+ms.date: 08/08/2018
 author: jralexander
 ms.author: johalex
 ---
@@ -54,7 +54,7 @@ The following tables contain information about all of the data transforms suppor
 
 | Transform | Definition |
 | --- | --- |
-| <xref:Microsoft.ML.Transforms.HashConverter> | Converts column values into hashes. This transform accepts both numeric and text inputs, both single and vector-valued columns. This is a part of the Dracula transform. |
+| <xref:Microsoft.ML.Transforms.HashConverter> | Converts column values into hashes. This transform accepts both numeric and text inputs, both single and vector-valued columns. |
 | <xref:Microsoft.ML.Transforms.TreeLeafFeaturizer> | Trains a tree ensemble, or loads it from a file, then maps a numeric feature vector to three outputs: 1. A vector containing the individual tree outputs of the tree ensemble. 2. A vector indicating the leaves that the feature vector falls on in the tree ensemble. 3. A vector indicating the paths that the feature vector falls on in the tree ensemble. If both a model file and a trainer are specified, the vector will use the model file. If neither are specified, the vector will train a default FastTree model. This can handle key labels by training a regression model towards their optionally permuted indices. |
 
 ## Label parsing
@@ -119,6 +119,7 @@ The following tables contain information about all of the data transforms suppor
 | <xref:Microsoft.ML.Transforms.CharacterTokenizer> | Character-oriented tokenizer where text is considered a sequence of characters. |
 | <xref:Microsoft.ML.Transforms.TextFeaturizer> | A transform that turns a collection of text documents into numerical feature vectors. The feature vectors are normalized counts of (word and/or character) ngrams in a given tokenized text. |
 | <xref:Microsoft.ML.Transforms.TextToKeyConverter> | Converts input values (words, numbers, etc.) to index in a dictionary. |
+| <xref:Microsoft.ML.Transforms.WordEmbeddings> | A transform that converts vectors of text tokens into numeric vectors using a pre-trained model. For more information about the technique, see the [Word embedding](https://en.wikipedia.org/wiki/Word_embedding) Wikipedia page. |
 | <xref:Microsoft.ML.Transforms.WordTokenizer> | The input to this transform is text, and the output is a vector of text containing the words (tokens) in the original text. The separator is space, but any other character (or multiple characters) can be specified. |
 
 ## Miscellaneous
