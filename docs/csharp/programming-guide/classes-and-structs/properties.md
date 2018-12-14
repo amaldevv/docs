@@ -1,5 +1,6 @@
 ---
-title: "Properties (C# Programming Guide)"
+title: "Properties - C# Programming Guide"
+ms.custom: seodec18
 ms.date: 03/10/2017
 f1_keywords: 
   - "cs.properties"
@@ -64,7 +65,8 @@ If a property has both a `get` and a `set` accessor, both must be auto-implement
 -   [Auto-Implemented Properties](../../../csharp/programming-guide/classes-and-structs/auto-implemented-properties.md)  
   
 ## C# Language Specification  
- [!INCLUDE[CSharplangspec](~/includes/csharplangspec-md.md)]  
+
+For more information, see [Properties](~/_csharplang/spec/classes.md#properties) in the [C# Language Specification](../../language-reference/language-specification/index.md). The language specification is the definitive source for C# syntax and usage.
   
 ## See Also
 

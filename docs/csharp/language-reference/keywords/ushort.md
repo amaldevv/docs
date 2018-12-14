@@ -1,5 +1,7 @@
 ---
-title: "ushort (C# Reference)"
+title: "ushort - C# Reference"
+ms.custom: seodec18
+
 ms.date: 03/14/2017
 f1_keywords: 
   - "ushort"
@@ -95,7 +97,8 @@ ushort y = (ushort)3.0;
  For more information about implicit numeric conversion rules, see the [Implicit Numeric Conversions Table](../../../csharp/language-reference/keywords/implicit-numeric-conversions-table.md).  
   
 ## C# Language Specification  
- [!INCLUDE[CSharplangspec](~/includes/csharplangspec-md.md)]  
+
+For more information, see [Integral types](~/_csharplang/spec/types.md#integral-types) in the [C# Language Specification](../language-specification/index.md). The language specification is the definitive source for C# syntax and usage.
   
 ## See Also
 
